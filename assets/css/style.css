@@ -1,0 +1,150 @@
+/* Общая настройка */
+
+@font-face {
+    font-family: "ProximaNova";
+    src: url("../fonts/ProximaNova-Light.ttf") format("truetype");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "ProximaNova";
+    src: url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "ProximaNova";
+    src: url("../fonts/ProximaNova-Semibold.ttf") format("truetype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "ProximaNova";
+    src: url("../fonts/ProximaNova-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+p{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style-type: none;
+}
+body{
+    font-family: "ProximaNova";
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.MAINcontainer{
+    width: 1920px;
+    margin: 0 auto;
+    background-color: #282B38;
+}
+.SUBcontainerV1{
+    width: 1820px;
+    margin: 0 auto;
+    background: url("../img/pic11.png") no-repeat center center / cover;
+}
+.SUBcontainerV2{
+    width: 1820px;
+    margin: 0 auto;
+    background-color: #363A4D;  
+}
+.SUBSUBcontainer{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header_wrapper{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_nav ul{
+    display: flex;
+}
+
+.menu1{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.header_button1{
+    font-weight: 600;
+    width: 171px;
+    height: 50px;
+    text-decoration: none;
+    background-color: #E58D35;
+    border-radius: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.logo{
+    margin-right: 97px;
+}
+
+.menu1{
+    margin-right: 50px;
+}
+
+/* section1 */
+
+.section1_title{
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.section1_wrapper{
+    padding-top: 163px;
+    padding-bottom: 228px;
+}
+
+.section1_text{
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.section1_btn{
+    margin-top: 37px;
+    width: 293px;
+    height: 68px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #E58D35;
+    border-radius: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1_btn img{
+    margin-left: 49px;
+}
