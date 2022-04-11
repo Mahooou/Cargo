@@ -104,13 +104,24 @@ body{
     justify-content: center;
     font-size: 15px;
 }
+.header_button1:hover{
+    transform: scale(1.05);
+}
 
 .logo{
     margin-right: 97px;
 }
 
+.logo:hover{
+    transform: scale(1.1);
+}
+
 .menu1{
     margin-right: 50px;
+}
+
+.menu1:hover{
+    color: wheat;
 }
 
 /* section1 */
@@ -145,6 +156,22 @@ body{
     justify-content: center;
 }
 
+.section1_btn:hover > .imgsha{
+    margin-left: 15px;
+    transition: 1s;
+}
+
 .section1_btn img{
     margin-left: 49px;
+}
+
+/* section2 */
+.section2_wrapper{
+    display: flex;
+}
+
+.section2_title{
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
 }
